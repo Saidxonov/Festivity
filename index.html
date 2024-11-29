@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/RGBELoader.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.7/build/dat.gui.min.js"
+    ></script>
+    <script defer src="main.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="mouse-effect">
+      <div class="circle"></div>
+      <div class="circle-follow"></div>
+    </div>
+
+    <header class="hide-text">
+      <div class="header-inner">
+        <a href="#" class="navbar-brand"> Saidburxon </a>
+        <nav>
+          <ul>
+            <li><a href="#">about me</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">knowledges</a></li>
+            <li><a href="#">highlights</a></li>
+          </ul>
+        </nav>
+        <button class="ham-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <h1 class="main-txt">Saidburxon</h1>
+
+    <section class="banner hide-text">
+      <div class="banner-inner">
+        <div class="top-desc">
+          <h5>Saidburxon</h5>
+          <h6>Frontend & Developer</h6>
+          <span></span>
+        </div>
+        <div class="bottom-desc">
+          <div class="left-desc">
+            <h1>X</h1>
+            <div class="desc-inner">
+              <h5>Pink & Rose Gold</h5>
+              <h6>Lighting & Material Study</h6>
+            </div>
+          </div>
+          <div class="middle-desc">
+            <h2>Dynamic Collisions</h2>
+          </div>
+          <div class="right-desc">
+            <h1>01</h1>
+            <div class="desc-inner">
+              <span>Social Links</span>
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <span class="rotated-text hide-text">Drag cursor to perfect</span>
+
+    <canvas class="webgl" id="webgl"></canvas>
+  </body>
+</html>
